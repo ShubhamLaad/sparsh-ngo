@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.scss'
 import { Container } from '../Layout/Layout';
-import { Facebook, Insta, Linkedin, Gmail } from '../Icons/Icons';
+import { Facebook, Insta, Linkedin } from '../Icons/Icons';
 
 const SOCIAL_ICONS = [
   { icon: <Insta />, title: 'Insta', href: 'https://instagram.com/sparsh_ngo?igshid=120egt7edxrv' },

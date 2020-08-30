@@ -1,10 +1,12 @@
+$headerColor: #eeedef;
+
 header {
     position: fixed;
     left: 0;
     right: 0;
     top: 0;
     z-index: 10;
-    background: #eeedef;
+    background: $headerColor;
     height: var(--headerHeight);
     .container {
         display: flex;
@@ -33,14 +35,14 @@ header {
         }
     }
     @media (max-width: 767px) {
-        background: #1c3334;
         position: absolute;
         left: 0;
         right: 0;
-        top: -80px;
+        top: -350px;
         padding: 20px;
         transition: all 0.4s ease-in-out;
         display: block;
+        background-color: $headerColor;
         &.show-animation {
             top: 59px;
         }
@@ -57,17 +59,12 @@ header {
     outline: 0;
     cursor: pointer;
 
-    &:hover,
-    &:focus {
-        background-color: #090909;
-    }
-
     .icon-bar {
         display: block;
         width: 22px;
         height: 2px;
         border-radius: 1px;
-        background-color: #ffffff;
+        background-color:black;
         margin-top: 4px;
         &:first-child {
             margin-top: 0;
@@ -94,7 +91,6 @@ header {
         justify-content: space-between;
         position: relative;
         width: 100%;
-        background: #1c3334;
         z-index: 20;
     }
 }
