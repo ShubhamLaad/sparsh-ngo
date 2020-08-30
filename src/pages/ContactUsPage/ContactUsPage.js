@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row } from '../../components/Layout/Layout';
+import { Container } from '../../components/Layout/Layout';
 import './ContactUsPage.scss'
 
 const VOLUNTEERS = [

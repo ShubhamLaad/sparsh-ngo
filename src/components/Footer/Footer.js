@@ -16,7 +16,7 @@ export default function Footer(props) {
     <footer>
       <Container className="d-flex">
         <p>© 2016 Sparsh NGO</p>
-        <a className="developer" href="https://www.linkedin.com/in/shubhamlaad" target="_blank">Developed By: Shubham Laad</a>
+        <a className="developer" rel="noopener noreferrer" href="https://www.linkedin.com/in/shubhamlaad" target="_blank">Developed By: Shubham Laad</a>
         <ul className="d-flex social-list">
           {SOCIAL_ICONS.map(social => <li key={social.title}>
             <a target="_blank" rel="noopener noreferrer" title={social.title} href={social.href}>{social.icon}</a>
