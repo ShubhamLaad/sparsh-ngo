@@ -1,0 +1,27 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #f5f8fc;
+  border-top: 1px solid #cccbcb;
+  padding: 5px 0;
+  .container {
+    justify-content: space-between;
+    align-items: center;
+  }
+  p {
+    font-size: 12px;
+  }
+  a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    filter: grayscale(1);
+    transition: all 0.2s ease-in-out;
+    padding: 8px;
+    &:hover {
+      filter: grayscale(0);
+    }
+  }
+}

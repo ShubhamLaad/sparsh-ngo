@@ -1,0 +1,25 @@
+.card {
+    text-align: center;
+    .img-bg {
+        margin-bottom: 10px;
+    }
+    .description {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .heading {
+        text-transform: capitalize;
+    }
+
+    &:hover,
+    &:focus {
+        .img-bg {
+            transition: all 0.2s ease-in-out;
+            transform: scale(1.05);
+        }
+        .heading {
+            text-decoration: underline;
+        }
+    }
+}

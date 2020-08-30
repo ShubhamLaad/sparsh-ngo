@@ -1,0 +1,40 @@
+.banner-section {
+    margin: 0 auto var(--space);
+    background-image: url(/images/6.jpg);
+    padding: 0;
+    height: 400px;
+    position: relative;
+
+    .banner-wrap {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    
+    
+    h1 {
+        color: white;
+        margin: auto;
+        width: 80%;
+        font-size: 38px;
+        font-weight: normal;
+        border-radius: 10px;
+        @media (max-width: 992px) {
+            width: 100%;
+            font-size: 20px;
+        }
+    }
+}
+
+
+.card-list {
+    li {
+        margin-bottom: var(--space);
+    }
+}
