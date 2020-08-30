@@ -11,7 +11,7 @@ export default function HomePage() {
       <main>
         <section className="banner-section img-bg">
           <div className="banner-wrap ">
-            <h1>Promoting & educating early childhood and young children by giving them the base for future growth & development to achieve their dreams</h1>
+            <h1>Encorage and empower dreams of early childhood & young children</h1>
           </div>
         </section>
         <section className="img-section">
