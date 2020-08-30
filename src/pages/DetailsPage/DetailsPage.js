@@ -5,7 +5,7 @@ import STORIES from '../../json/STORIES.json'
 
 export default function DetailsPage() {
   const { index } = useParams();
-  const { heading, place } = STORIES[index - 1]
+  const { heading, place } = STORIES[index]
 
   return (
     <main>
@@ -14,7 +14,7 @@ export default function DetailsPage() {
         <Row>
           <div className="col-sm-6">
             <div className="shadow">
-              <img width="100%" src={`/images/${index}.jpg`} alt={heading} />
+              <img width="100%" src={`/images/${parseInt(index) + 1}.jpg`} alt={heading} />
             </div>
           </div>
           <div className="col-sm-6">

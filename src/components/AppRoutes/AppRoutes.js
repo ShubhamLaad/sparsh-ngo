@@ -38,7 +38,7 @@ const AppRoutes = () => (
 
         <Route
           exact
-          path="/images/:index"
+          path="/details/:index"
           component={DetailsPage}
         />
 

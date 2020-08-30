@@ -19,7 +19,7 @@ export default function HomePage() {
             <ul className="row card-list">
               {STORIES.map((story, index) =>
                 <li className="col-md-4 col-sm-6" key={index}>
-                  <Link to={`/images/${index}`} title={story.heading}>
+                  <Link to={`/details/${index}`} title={story.heading}>
                     <Card {...story} imgName={index + 1} />
                   </Link>
                 </li>
