@@ -31,7 +31,7 @@ export default function ContactUsPage() {
         <h1>Contact Us</h1>
         <p className="mb-30">We believe that your time is the greatest and most precious gift we could ever receive. We welcome volunteers who have the passion and willingness to bring about social change within our community.</p>
         <ul className="row volunteer-list">
-          {VOLUNTEERS.map(({ name, imgUrl, emailId, contact, position }) => <li key={name} className="col-md-4">
+          {VOLUNTEERS.map(({ name, imgUrl, emailId, contact, position }) => <li key={name} className="col-md-4 mb-30">
             {/* <img className="img-responsive" src={imgUrl} alt={name} /> */}
             <div className="img mb-10" style={{ backgroundImage: `url(${imgUrl})` }}></div>
             <i>{position}</i>
