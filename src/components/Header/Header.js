@@ -6,9 +6,9 @@ import OutSideCilck from '../OutSideClick/OutSideClick'
 
 const LINKS = [
   { path: '/about', label: 'About Us' },
+  { path: '/work', label: 'Our Work' },
   { path: '/contact-us', label: 'Contact Us' },
   { path: '/donate', label: 'Donate' },
-  // { path: '/join-us', label: 'Join Us' },
 ]
 
 export default function Header(props) {

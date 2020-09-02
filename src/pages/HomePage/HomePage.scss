@@ -1,6 +1,6 @@
 .banner-section {
     margin: 0 auto var(--space);
-    background-image: url(/images/6.jpg);
+    background-image: url(/images/sparsh/6.jpg);
     padding: 0;
     height: 400px;
     position: relative;
@@ -36,5 +36,20 @@
 .card-list {
     li {
         margin-bottom: var(--space);
+    }
+}
+.work-list {
+    .img-bg {
+        background-size: contain;
+        background-color: transparent;
+    }
+}
+.sub-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+        color: black;
+        font-weight: bold;
     }
 }

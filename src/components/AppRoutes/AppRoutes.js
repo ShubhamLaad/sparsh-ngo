@@ -7,6 +7,7 @@ import AboutPage from '../../pages/AboutPage/AboutPage';
 import DetailsPage from '../../pages/DetailsPage/DetailsPage';
 import ContactUsPage from '../../pages/ContactUsPage/ContactUsPage'
 import DonatePage from '../../pages/DonatePage/DonatePage'
+import WorkPage from '../../pages/WorkPage/WorkPage';
 
 const AppRoutes = () => (
   <BrowserRouter>
@@ -34,6 +35,13 @@ const AppRoutes = () => (
           exact
           path="/donate"
           component={DonatePage}
+        />
+
+
+        <Route
+          exact
+          path="/work"
+          component={WorkPage}
         />
 
         <Route

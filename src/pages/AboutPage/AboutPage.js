@@ -10,7 +10,7 @@ export default function AboutPage() {
         <div className="clearfix">
           <div className="float-right ujjwal-image text-center">
             <div className="mb-10 shadow" title="Ujjwal Laad">
-              <img src="/images/10.jpg" alt="Ujjwal" className="img-responsive" />
+              <img src="/images/sparsh/10.jpg" alt="Ujjwal" className="img-responsive" />
             </div>
           </div>
           <ul>
@@ -19,8 +19,6 @@ export default function AboutPage() {
             <li>We believe that your time is the greatest and most precious gift we could ever receive. We welcome volunteers who have the passion and willingness to bring about social change within our community.</li>
             <li>We give our volunteers the freedom of choosing work, that matches their interests and expertise, on a daily, weekly, monthly or annual basis.</li>
           </ul>
-
-
         </div>
       </Container>
     </main>

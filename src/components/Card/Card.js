@@ -1,10 +1,10 @@
 import React from 'react';
 import './Card.scss'
 
-const Card = ({ heading, imgName }) => {
+const Card = ({ heading, imgPath }) => {
   return (
     <div className="card">
-      <div className="img-bg shadow" style={{ backgroundImage: `url(/images/${imgName}.jpg)` }}></div>
+      <div className="img-bg shadow" style={{ backgroundImage: `url(${imgPath})` }}></div>
       <h3 className="heading">{heading}</h3>
     </div >
   );

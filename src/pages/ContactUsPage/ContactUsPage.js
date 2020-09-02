@@ -4,19 +4,19 @@ import './ContactUsPage.scss'
 
 const VOLUNTEERS = [
   {
-    imgUrl: '/images/syadav.jpeg',
+    imgUrl: '/images/contact/syadav.jpeg',
     name: 'Sourabh Yadav',
     emailId: 'ysourabh180@gamil.com',
     position: 'President',
     contact: 7747986626,
   }, {
-    imgUrl: '/images/sjain.jpeg',
+    imgUrl: '/images/contact/sjain.jpeg',
     name: 'Sourabh Jain',
     emailId: 'Jain.sourabh9999@gmail.com',
     position: 'Vice President',
     contact: 7987790369,
   }, {
-    imgUrl: '/images/ujjwal.jpeg',
+    imgUrl: '/images/contact/ujjwal.jpeg',
     name: 'Ujjwal Laad',
     emailId: 'ujjvallaad@gmail.com',
     position: 'Social Media Manager',
