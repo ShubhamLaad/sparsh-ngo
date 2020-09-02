@@ -28,7 +28,10 @@ footer {
     color: #212529;
     font-size: 14px;
     &:hover{
-      font-weight: 600;
+      opacity: 0.8;
+    }
+    .shubham {
+      text-decoration: underline;
     }
   }
 }
