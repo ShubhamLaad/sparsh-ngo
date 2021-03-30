@@ -1,4 +1,5 @@
 import React from 'react';
+import Candidates from '../../components/Candidates/Candidates';
 import { Container } from '../../components/Layout/Layout';
 import './ContactUsPage.scss'
 
@@ -40,6 +41,11 @@ export default function ContactUsPage() {
             <p>{contact}</p>
           </li>)}
         </ul>
+
+        <section className="volunteer-section">
+          <h2 className="text-center mb-20">Volunteers</h2>
+          <Candidates />
+        </section>
       </Container>
     </main>
   );
