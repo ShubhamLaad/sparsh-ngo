@@ -1,6 +1,6 @@
 # SparshNGO
 Making the art of photography, simple and very much possible
-PROD LINK: [https://sparshngo.netlify.app]
+PROD LINK: [https://sparsh.netlify.app/]
 
 ## How to run project and Available Scripts
 
