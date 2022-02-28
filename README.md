@@ -9,6 +9,14 @@ PROD LINK: [https://sparsh.netlify.app/]
 #### Open terminal press keys
 ctr + shift + `
 
+#### permission mac
+```
+sudo chown -R $USER:$GROUP ~/.npm
+sudo chown -R $USER:$GROUP ~/.config
+```
+`$ npm i -g yarn`
+`$ yarn`
+
 #### Open [http://localhost:3000](http://localhost:3000) to view it in the browser
 yarn start
 

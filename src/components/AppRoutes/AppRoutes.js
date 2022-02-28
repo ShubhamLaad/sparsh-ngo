@@ -1,4 +1,4 @@
-import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import React from 'react';
 import Root from '../Root/Root';
 import HomePage from '../../pages/HomePage/HomePage';
@@ -11,51 +11,44 @@ import WorkPage from '../../pages/WorkPage/WorkPage';
 
 const AppRoutes = () => (
   <BrowserRouter>
-    <Root path="/">
-      <Switch>
+    <Routes>
+      <Route path="/" element={<Root />}>
         <Route
-          exact
-          path="/"
-          component={HomePage}
+          index
+          element={<HomePage />}
+        />
+
+        <Route
+          path="about"
+          element={<AboutPage />}
+        />
+
+        <Route
+          path="contact-us"
+          element={<ContactUsPage />}
         />
 
         <Route
           exact
-          path="/about"
-          component={AboutPage}
+          path="donate"
+          element={<DonatePage />}
         />
 
         <Route
-          exact
-          path="/contact-us"
-          component={ContactUsPage}
-        />
-
-        <Route
-          exact
-          path="/donate"
-          component={DonatePage}
-        />
-
-
-        <Route
-          exact
           path="/work"
-          component={WorkPage}
+          element={<WorkPage />}
         />
 
         <Route
-          exact
-          path="/details/:index"
-          component={DetailsPage}
+          path="details/:index"
+          element={<DetailsPage />}
         />
-
-        <Route
-          path="*"
-          component={NotFoundPage}
-        />
-      </Switch>
-    </Root>
+      </Route>
+      <Route
+        path="*"
+        element={<NotFoundPage />}
+      />
+    </Routes>
   </BrowserRouter>
 );
 

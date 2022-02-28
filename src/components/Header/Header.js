@@ -29,7 +29,7 @@ export default function Header(props) {
         </OutSideCilck>
         <ul className={`nav-list ${showNav ? 'show-animation' : ''} `}>
           {
-            LINKS.map(link => <li key={link.label}><NavLink to={link.path} title={link.label} activeClassName="active">{link.label}</NavLink ></li>)
+            LINKS.map(link => <li key={link.label}><NavLink to={link.path} title={link.label} activeclassname="active">{link.label}</NavLink ></li>)
           }
         </ul>
 
