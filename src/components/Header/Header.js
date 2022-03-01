@@ -19,8 +19,8 @@ export default function Header(props) {
     <header>
       <Container>
         <OutSideCilck className="mobile-wrap" onClose={() => { setshowNav(false) }}>
-          <Link to="/" className="logo" title="Sparsh NGO"><img className="img-responsive" src="/logo.png" alt="logo" /></Link >
-          <button className={`visible-xs navbar-toggle ${showNav ? 'open' : 'close'}`} onClick={() => { setshowNav(!showNav) }}>
+          <Link to="/" className="logo" title="Sparsh NGO"><img width="135px" height="60px" className="img-responsive" src="/logo.png" alt="logo" /></Link >
+          <button aria-label="Toggle navigation" className={`visible-xs navbar-toggle ${showNav ? 'open' : 'close'}`} onClick={() => { setshowNav(!showNav) }}>
             <span className="sr-only d-none">Toggle navigation</span>
             <span className="icon-bar icon-bar-1"></span>
             <span className="icon-bar icon-bar-2"></span>
