@@ -14,7 +14,7 @@ export default function DetailsPage() {
         <Row>
           <div className="col-sm-6">
             <div className="shadow">
-              <img width="100%" src={`/images/sparsh/${parseInt(index) + 1}.jpg`} alt={heading} />
+              <img width="100%" src={`/images/sparsh/${parseInt(index) + 1}.webp`} alt={heading} />
             </div>
           </div>
           <div className="col-sm-6">

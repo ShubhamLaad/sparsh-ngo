@@ -23,7 +23,7 @@ export default function HomePage() {
             </div>
             <ul className="row card-list work-list mb-30">
               {[1, 5, 44].map(e => <li key={e} className="col-md-4 col-sm-6">
-                <Card imgPath={`/images/work/${e}.jpeg`} />
+                <Card imgPath={`/images/work/${e}.webp`} />
               </li>)}
             </ul>
 
@@ -35,7 +35,7 @@ export default function HomePage() {
               {STORIES.map((story, index) =>
                 <li className="col-md-4 col-sm-6" key={index}>
                   <Link to={`/details/${index}`} title={story.heading}>
-                    <Card {...story} imgPath={`/images/sparsh/${index + 1}.jpg`} />
+                    <Card {...story} imgPath={`/images/sparsh/${index + 1}.webp`} />
                   </Link>
                 </li>
               )}

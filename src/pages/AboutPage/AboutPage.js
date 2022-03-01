@@ -10,7 +10,7 @@ export default function AboutPage() {
         <div className="clearfix">
           <div className="float-right ujjwal-image text-center">
             <div className="mb-10 shadow" title="Ujjwal Laad">
-              <img src="/images/sparsh/10.jpg" alt="Ujjwal" className="img-responsive" />
+              <img src="/images/sparsh/10.webp" alt="Ujjwal" className="img-responsive" />
             </div>
           </div>
           <ul>
