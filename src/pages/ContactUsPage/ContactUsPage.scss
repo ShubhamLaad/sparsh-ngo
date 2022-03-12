@@ -9,6 +9,13 @@
     .volunteer-list {
         text-align: center;
     }
+    a {
+      color: inherit;
+      display: block;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
 }
 
 table {

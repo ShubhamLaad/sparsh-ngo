@@ -37,8 +37,8 @@ export default function ContactUsPage() {
             <div className="img mb-10" style={{ backgroundImage: `url(${imgUrl})` }}></div>
             <i>{position}</i>
             <h3 className="">{name}</h3>
-            <p>{emailId}</p>
-            <p>{contact}</p>
+            <a href={`mailto:${emailId}`} title="Email Me">{emailId}</a>
+            <a href={`tel:${contact}`} title="Call Me">{contact}</a>
           </li>)}
         </ul>
 
